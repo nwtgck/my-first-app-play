@@ -10,5 +10,5 @@ GET     /                           controllers.HomeController.index
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
 
-# An example controller showing a sample home page
 GET     /echo-ws                     controllers.WebSocketController.connect
+GET     /dynamic-ws                  controllers.WebSocketController.dynamic
